@@ -32,8 +32,63 @@
     <link rel="apple-touch-icon" sizes="120x120" href="/img/favicon/apple-icon-120x120.png">
     <link rel="icon" href="/img/favicon/favicon.ico">
     <link rel="shortcut icon" href="/img/favicon/favicon.ico">
-    <meta name="theme-color" content="#ffffff">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR&display=swap" rel="stylesheet">
 
+    <meta name="theme-color" content="#ffffff">
+    <style>
+        #content {min-height:0;}
+
+#greeting {background:#eaf0f8;padding:70px 15px;}
+#greeting .inner {max-width:1260px;margin:0 auto;}
+#greeting .tit {position:relative;}
+#greeting .tit .inner {position:relative;}
+#greeting .tit h2 {font-size:40px;color:#3a3f45;font-weight:bold;padding-top:13px;position:relative;}
+#greeting .tit h2:before {content:"";display:block;width:50px;height:2px;position:absolute;left:0;top:0;background:#3a3f45;}
+#greeting .tit .tab {position:absolute;right:0;bottom:0;white-space:nowrap;font-size:0;}
+#greeting .tit .tab a {display:inline-block;width:140px;height:42px;line-height:40px;background:#fff;border:1px solid #ccc;font-size:16px;color:#777;font-weight:500;letter-spacing:-0.03em;text-align:center;}
+#greeting .tit .tab a ~ a {margin-left:4px;}
+#greeting .tit .tab .active {background:#3c3e46;border-color:#3c3e46;color:#fff;}
+#greeting .gre {margin:100px -15px -70px;padding:0 15px;font-family:'Noto Serif KR',serif;position:relative;box-sizing:border-box;}
+#greeting .gre .inner {}
+#greeting .gre .wrap {max-width:630px;padding-bottom:70px;position:relative;z-index:10;}
+#greeting .gre .title {font-size:24px;color:#3a3f45;line-height:1.25;font-weight:bold;}
+#greeting .gre .txt {margin-top:50px;font-size:18px;color:#3a3f45;line-height:1.65;letter-spacing:-0.03em;}
+#greeting .gre .sign {margin:70px 0 0 320px;}
+#greeting .gre .sign > * {display:inline-block;vertical-align:middle;}
+#greeting .gre .sign span {font-size:24px;color:#3a3f45;margin-right:17px;}
+#greeting .gre .sign strong {width:196px;height:53px;background:url(../images/img-sign.png) no-repeat 0 50%;background-size:contain;text-indent:-9999px;}
+
+#greeting {
+    font-family: 'Noto Serif KR', serif;
+
+}
+
+body {
+    font-family: 'Noto Serif KR', serif;
+}
+#greeting .pic {display:block;background:url(../images/img-greeting.png) no-repeat 50% 100%;position:absolute;top:0;width:1260px;left:50%;margin-left:-630px;height:100vh;pointer-events:none;min-height:940px;}
+
+
+#greeting .profile {margin-top:20px;}
+#greeting .profile .head {background:url(../images/img-profile.jpg) no-repeat 50% 50%;background-size:cover;height:380px;padding:180px 0 0 45px;color:#fff;}
+#greeting .profile .head h3 {font-size:30px;}
+#greeting .profile .head ul {margin-top:30px;}
+#greeting .profile .head ul li {font-size:18px;line-height:1.65;padding-left:100px;position:relative;}
+#greeting .profile .head ul li strong {display:block;position:absolute;left:0;top:0;font-weight:600 ;}
+#greeting .profile .foot {max-width:1160px;margin:70px auto 0;position:relative;padding-left:130px;}
+#greeting .profile .foot h3 {position:absolute;left:0;top:0;font-size:30px;color:#3a3f45;font-weight:bold;}
+#greeting .profile .foot .area {position:relative;}
+#greeting .profile .foot .area:before {content:"";display:block;width:1px;height:calc(100% + 40px);top:-20px;left:186px;background:#ccc;position:absolute;}
+#greeting .profile .foot .area .box {position:relative;padding-left:230px;}
+#greeting .profile .foot .area .box ~ .box {margin-top:75px;}
+#greeting .profile .foot .area .box:before {content:"";display:block;width:10px;height:10px;background:#bd445b;border-radius:50%;position:absolute;left:181px;top:10px;}
+#greeting .profile .foot .area .box h4 {position:absolute;left:0;top:0;font-size:30px;color:#111;}
+#greeting .profile .foot .area .box ul li {position:relative;padding-left:195px;font-size:16px;color:#222;line-height:1.85;letter-spacing:-0.03em;}
+#greeting .profile .foot .area .box ul li strong {display:block;position:absolute;left:0;top:0;font-weight:600;}
+
+    </style>
     <title>미래에너지신산업-IP - 인사말</title>
 </head>
 <body>
@@ -124,8 +179,42 @@
     </aside>
 
     <div id="content">
-        <div class="space6 record-description">
-            <iframe src="https://everythingx.oopy.io/about" frameborder="0" scrolling="no" style="width: 100%; height: 100vh; "></iframe>
+        <div id="greeting">
+        
+            <div class="gre">
+                <div class="inner" style="position: relative;">
+                    
+                        <div  style=" height: 150px; background-repeat: no-repeat; ">
+                            <img src="/img/profile.png" alt="" style="position:absolute ; right: 5%; top: -200px">
+                        </div>
+                        <div class="title">
+                            안녕하십니까!<br>
+                            미래에너지신산업-IP 주임교수 조성용입니다.<br>
+                        </div>
+                        
+                        <div class="txt" style="line-height: 3em;">
+                            에너지신산업에 관련된 IT, 전력거래, 소재, 부품, 장비 등 <br>
+지역산업 수요 맞춤형 교육을 제공하여 지역의 에너지 관련 산업을 성장시키고,<br>
+주도해나갈 수 있는 진취적인 창의·융합형 지역 인재 양성에 힘쓰겠습니다.  <br><br>
+
+또한 에너지신산업을 다양한 분야와 접목하여 <br>
+에너지환경과 기술의 급속한 변화에 대응할 수 있는<br>
+미래에너지 분야의 지식재산·창업 전문 인력 양성도 노력 할 것입니다.<br><br>
+
+마지막으로 광주전남 지역의 교수 및 산업자원을 적극 활용하여<br>
+에너지신산업 분야의 실무 중심 교육 실시, <br>
+팀티칭과 프로젝트를 통한 교수 및 학생 참여 극대화를 이끌어 가겠습니다.<br>
+
+                            함께 해주신 여러분께 감사드립니다.<br>
+                        </div>
+                        <div class="sign">
+                            <span>주임교수 조 성 용</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+    
         </div>
     </div>
 </main>
@@ -162,7 +251,7 @@
                 />
             </p>
             <address class="addr">
-                (61186) 광주 북구 용봉로 77 미래교육관 (용봉동 300)
+                (61186) 광주 북구 용봉로 77
             </address>
             <p class="copy">
                 COPYRIGHT 2022 ⓒ 광주전남지역혁신(iU-GJ) 미래 에너지 신산업-IP
